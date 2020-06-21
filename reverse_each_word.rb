@@ -3,4 +3,4 @@ def reverse_each_word(string_in)
   puts word_array
 end
 
-reverse_each_word
+reverse_each_word("Hi, how are you?")
