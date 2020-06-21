@@ -11,8 +11,7 @@ def reverse_each_word(string_in)
         backwards = backwards + letter_array[countdown]
         letter_counter += 1
       end 
-      letter_counter += 1
-    end
+   
     main_counter += 1
   end
 puts backwards
