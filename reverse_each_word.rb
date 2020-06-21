@@ -15,7 +15,7 @@ def reverse_each_word(string_in)
       backwards = backwards + " "
     main_counter += 1
   end
-puts backwards
+backwards
 end
 
 reverse_each_word("Hi, how are you?")
