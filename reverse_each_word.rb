@@ -17,6 +17,6 @@ def reverse_each_word(string_in)
         backwards = backwards + " "
     end
   end
-backwards
+puts backwards
 end
 
