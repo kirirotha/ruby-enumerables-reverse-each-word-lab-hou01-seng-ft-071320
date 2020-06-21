@@ -20,3 +20,4 @@ def reverse_each_word(string_in)
 puts backwards
 end
 
+reverse_each_word("Hi how are you?")
