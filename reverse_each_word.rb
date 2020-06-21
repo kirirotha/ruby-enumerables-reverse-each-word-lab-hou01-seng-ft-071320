@@ -3,7 +3,7 @@ def reverse_each_word(string_in)
 #  puts word_array
   main_counter = 0
   backwards = ""
-  while main_counter < word_array.length do
+  word_array.collect do |element|
       letter_counter=0
       countdown = word_array[main_counter].length - 1
         letter_array = word_array[main_counter].split("")
