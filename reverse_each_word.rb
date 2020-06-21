@@ -20,5 +20,3 @@ def reverse_each_word(string_in)
 backwards
 end
 
-  word_array.collect do |element|
-  
