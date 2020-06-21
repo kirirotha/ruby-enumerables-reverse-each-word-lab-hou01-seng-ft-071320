@@ -18,4 +18,3 @@ def reverse_each_word(string_in)
 backwards
 end
 
-reverse_each_word("Hi, how are you?")
