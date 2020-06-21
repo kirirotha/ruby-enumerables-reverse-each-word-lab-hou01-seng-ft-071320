@@ -6,12 +6,12 @@ def reverse_each_word(string_in)
   while main_counter < word_array.length do
       letter_counter=0
       countdown = word_array[main_counter].length - 1
-      letter_array = word_array.split("")
-      while letter_counter < word_array[main_counter].length do
-        backwards = backwards + letter_array[countdown]
-        letter_counter += 1
-      end 
-   
+        letter_array = word_array[main_counter].split("")
+        while letter_counter < word_array[main_counter].length do
+          backwards = backwards + letter_array[countdown]
+          letter_counter += 1
+        end 
+     
     main_counter += 1
   end
 puts backwards
