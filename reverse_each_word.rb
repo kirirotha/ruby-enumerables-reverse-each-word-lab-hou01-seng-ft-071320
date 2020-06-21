@@ -12,6 +12,7 @@ def reverse_each_word(string_in)
           letter_counter += 1
           countdown -= 1
         end 
+      if
       backwards = backwards + " "
     main_counter += 1
   end
